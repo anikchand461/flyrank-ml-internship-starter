@@ -1,0 +1,19 @@
+[project]
+name = "flyrank-ml-internship-starter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.5.4",
+    "huggingface-hub>=1.23.0",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "reportlab>=5.0.0",
+    "scikit-learn>=1.9.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.6.1",
+]
