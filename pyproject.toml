@@ -16,4 +16,5 @@ dependencies = [
 [dependency-groups]
 dev = [
     "jupyterlab>=4.6.1",
+    "notebook>=7.6.0",
 ]
